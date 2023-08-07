@@ -1,0 +1,155 @@
+/* Estilo geral */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+    background-color: #6a87df;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilo do título principal */
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+/* Estilo da navegação */
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4D4DFF;
+}
+
+/* Estilo das seções de conteúdo */
+
+.Lugares.imperdiveis {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Lugares.imperdiveis h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.Lugares.imperdiveis p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #5e5e5e;
+}
+
+/* Estilo da seção "Resenha do Autor" */
+
+.Resenha.do.Autor {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.Resenha.do.Autor h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Resenha.do.Autor img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Resenha.do.Autor p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #5a5a5a;
+    margin-top: 20px;
+}
+
+.Resenha.do.Autor p::before {
+    content: "\201C"; /* Adiciona aspas de abertura */
+    font-size: 2rem;
+    vertical-align: text-top;
+    margin-right: 5px;
+    color: #4D4DFF;
+}
+
+.Resenha.do.Autor p::after {
+    content: "\201D"; /* Adiciona aspas de fechamento */
+    font-size: 2rem;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    color: #4D4DFF;
+}
+
+.Resenha.do.Autor .nota {
+    font-size: 1.5rem;
+    color: #4D4DFF;
+}
+
+.Resenha.do.Autor .ultima-frase {
+    display: block;
+    margin-top: 15px;
+}
+
+
+
+/* Estilo do rodapé */
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+.instagram-icon {
+    width: 30px; /* Defina o tamanho desejado para o ícone */
+    height: 30px;
+    margin-left: 10px; /* Ajuste as margens conforme necessário */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+
+/* Estilo dos links no rodapé */
+
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #cc4400;
+}
